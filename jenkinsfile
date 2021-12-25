@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('GitCheckin') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Maven Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
